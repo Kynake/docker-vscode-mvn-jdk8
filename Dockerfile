@@ -1,5 +1,5 @@
 # start command on linux
-# sudo docker run --rm --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" vscode_mvn_jdk8
+# sudo docker run --rm --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" kynake/vscode_mvn_jdk8
 
 FROM maven:3-jdk-8
 
